@@ -6,11 +6,11 @@ spec:
   replicas: 2
   selector:
     matchLabels:
-	app: karthik-app
+      app: karthik-app
   template:
     metadata:
-	labels:
-	  app: karthik-app
+      labels:
+        app: karthik-app
     spec:
       containers:
       - name: karthik-app
