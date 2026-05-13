@@ -14,9 +14,10 @@ spec:
     spec:
       containers:
       - name: karthik-app
-        image: karthik1082/karthik-app
+        image: karthik1082/karthik-app:latest
 	ports:
 	- containerPort: 80
+
 ---
 
 apiVersion: v1
